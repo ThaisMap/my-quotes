@@ -1,9 +1,9 @@
 .container {
-  background-image: url('https://picsum.photos/1200/800/?blur');
   background-size: cover;
   display: block;
   height: 800px;
   left: 0;
+  filter: blur(4px);
   position: fixed;
   right: 0;
   z-index: 1;

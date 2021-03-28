@@ -1,26 +1,40 @@
+/* sobreposicao com blur */
 .container {
   top: 10px;
   left: 0;
   position: fixed;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: auto;
   right: 0;
   z-index: 2;
-  padding: 0 10px;
+  height: 100vh;
 
   display: flex;
   flex-direction: column;
-  height: 90vh;
   align-items: center;
   justify-content: center;
 }
 
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  padding: 5% 10%;
+  background-color: rgba(255, 255, 255, 20%);
+}
+
 .text {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
+  text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .from {
   font-size: 1.5rem;
   margin: 2rem;
+  text-shadow: 2px 2px 0px #333, 5px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  text-align: right;
 }
