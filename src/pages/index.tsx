@@ -4,7 +4,7 @@ import Background from '../components/background';
 import Sentence from '../components/sentence';
 import { useEffect, useState } from 'react';
 import GetRandomQuote from '../api/quotes';
-import { Quote } from '../types';
+import { BackgroundImage, Quote } from '../types';
 import background from '../components/background';
 import GetRandomImage from '../api/images';
 
@@ -13,9 +13,11 @@ export default function Home() {
     text: 'You have Michael Jordan level talent at something',
     from: 'Evan Carmichel',
   });
-  const [backgroundImage, setBackgroundImage] = useState<string>(
-    'https://picsum.photos/1200/800/?blur'
-  );
+  const [backgroundImage, setBackgroundImage] = useState<BackgroundImage>({
+    filename: 'https://picsum.photos/1200/800/?blur',
+    link: 'https://picsum.photos/1200/800/?blur',
+    credits: 'Random Photo from Picsum',
+  });
 
   useEffect(() => {
     handleScreenClick();

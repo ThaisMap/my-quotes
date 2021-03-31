@@ -54,10 +54,6 @@ const quotes: Quote[] = [
     from: 'Marcia Wieder',
   },
   {
-    text: 'I never think of the future',
-    from: 'it comes soon enough."',
-  },
-  {
     text:
       'Do not anticipate trouble or worry about what may never happen. Keep in the sunlight.',
     from: 'Benjamin Franklin',
@@ -81,10 +77,6 @@ const quotes: Quote[] = [
     from: 'Napoleon Bonaparte',
   },
   {
-    text: 'While a good leader sustains momentum, a great leader increases it.',
-    from: 'John C. Maxwell',
-  },
-  {
     text:
       'A general is just as good or just as bad as the troops under his command make him.',
     from: 'General Douglas MacArthur',
@@ -93,20 +85,6 @@ const quotes: Quote[] = [
     text:
       'To do great things is difficult; but to command great things is more difficult.',
     from: 'Friedrich Nietzsche',
-  },
-  {
-    text: 'Leadership does not always wear the harness of compromise.',
-    from: 'Woodrow Wilson',
-  },
-  {
-    text:
-      'I avoid looking forward or backward, and try to keep looking upward.',
-    from: 'Charlotte Bronte',
-  },
-  {
-    text:
-      'The more difficulties one has to encounter, within and without, the more significant and the higher in inspiration his life will be.',
-    from: 'Horace Bushnell',
   },
   {
     text: 'Every artist was first an amateur.',
@@ -158,16 +136,6 @@ const quotes: Quote[] = [
     from: 'Benjamin Disraeli',
   },
   {
-    text:
-      'Happiness depends more on the inward disposition of mind than on outward circumstances.',
-    from: 'Benjamin Franklin',
-  },
-  {
-    text:
-      'There is no happiness except in the realization that we have accomplished something.',
-    from: 'Henry Ford',
-  },
-  {
     text: 'Happiness is not a goal, but a by-product.',
     from: 'Eleanor Roosevelt',
   },
@@ -180,11 +148,6 @@ const quotes: Quote[] = [
     from: 'C. H. Parkhurst',
   },
   {
-    text:
-      'The significance of a man is not in what he attains but in what he longs to attain.',
-    from: 'Kahlil Gibran',
-  },
-  {
     text: 'In all things that you do, consider the end.',
     from: 'Solon',
   },
@@ -194,34 +157,12 @@ const quotes: Quote[] = [
     from: 'Viktor Frankl',
   },
   {
-    text: 'The virtue lies in the struggle, not in the prize.',
-    from: 'Richard Monckton Milnes',
-  },
-  {
-    text: 'To reach a port, we must sail',
-    from: 'sail, not tie at anchor',
-  },
-  {
     text: 'Success is the child of audacity.',
     from: 'Benjamin Disraeli',
   },
   {
-    text:
-      'The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack in will.',
-    from: 'Vince Lombardi',
-  },
-  {
-    text: 'The secret of success is to know something nobody else knows.',
-    from: 'Aristotle Onassis',
-  },
-  {
     text: 'The surest way not to fail is to determine to succeed.',
     from: 'Richard Brinsley Sheridan',
-  },
-  {
-    text:
-      'I cannot give you the formula for success, but I can give you the formula for failure',
-    from: 'which is: Try to please everybody."',
   },
   {
     text:
@@ -231,11 +172,6 @@ const quotes: Quote[] = [
   {
     text: 'Years teach us more than books.',
     from: 'Berthold Auerbach',
-  },
-  {
-    text:
-      'The only medicine for suffering, crime, and all the other woes of mankind, is wisdom.',
-    from: 'Thomas Huxley',
   },
   {
     text: 'The art of being wise is knowing what to overlook.',
@@ -281,7 +217,7 @@ const quotes: Quote[] = [
     from: 'Robert Frost',
   },
   {
-    text: "You miss 100 percent of the shots you don't take.",
+    text: "You miss 100% of the shots you don't take.",
     from: 'Wayne Gretzky',
   },
   {
@@ -290,20 +226,12 @@ const quotes: Quote[] = [
     from: 'Samuel Johnson',
   },
   {
-    text: "Don't bunt. Aim out of the ballpark.",
-    from: 'David Ogilvy',
-  },
-  {
     text:
       'The critical ingredient is getting off your butt and doing something. It’s as simple as that.',
     from: 'Nolan Bushnell, entrepreneur.',
   },
   {
-    text: 'Your most unhappy customers are your greatest source of learning.',
-    from: 'Bill Gates, co-founder of Microsoft.',
-  },
-  {
-    text: 'I have not failed. I’ve just found 10,000 ways that won’t work.',
+    text: 'I have not failed. I’ve just found 10000 ways that won’t work.',
     from: 'Thomas Edison, inventor.',
   },
   {
@@ -321,7 +249,7 @@ const quotes: Quote[] = [
   },
   {
     text:
-      'If you’re not embarrassed by the first version of your product, you’ve launched too late.”',
+      'If you’re not embarrassed by the first version of your product, you’ve launched too late.',
     from: 'Reid Hoffman, co-founder of LinkedIn.',
   },
   {
@@ -330,12 +258,8 @@ const quotes: Quote[] = [
     from: 'Zig Ziglar, author, salesman, and motivational speaker.',
   },
   {
-    text: 'I’m not afraid of dying, I’m afraid of not trying.”',
+    text: 'I’m not afraid of dying, I’m afraid of not trying.',
     from: 'Jay Z, musician.',
-  },
-  {
-    text: 'Whatever the mind can conceive and believe, the mind can achieve.',
-    from: 'Dr. Napoleon Hill, author of Think and Grow Rich.',
   },
   {
     text: 'The longer you’re not taking action the more money you’re losing',
@@ -344,10 +268,6 @@ const quotes: Quote[] = [
   {
     text: 'If you live for weekends or vacations, your shit is broken',
     from: 'Gary Vaynerchuk',
-  },
-  {
-    text: 'Go Big, or Go Home',
-    from: 'Eliza Dushku',
   },
   {
     text:
@@ -396,7 +316,7 @@ const quotes: Quote[] = [
     from: 'Quoted by Tony Hsieh on Retireat21',
   },
   {
-    text: 'Its better to own the racecourse then the race horse',
+    text: "It's better to own the racecourse then the race horse",
     from: 'Unknown',
   },
   {
@@ -440,18 +360,6 @@ const quotes: Quote[] = [
     from: 'Mooie',
   },
   {
-    text: 'Whatever the mind can conceive and believe, the mind can achieve',
-    from: 'Dr. Napoleon Hill',
-  },
-  {
-    text: 'I have not failed. I’ve just found 10,000 ways that won’t work',
-    from: 'Thomas Alva Edison',
-  },
-  {
-    text: 'If you ain’t making waves, you ain’t kickin’ hard enough',
-    from: 'Unknown',
-  },
-  {
     text: 'What is not started will never get finished',
     from: 'Johann Wolfgang von Goethe',
   },
@@ -463,10 +371,6 @@ const quotes: Quote[] = [
   {
     text: 'When you cease to dream you cease to live',
     from: 'Malcolm Forbes',
-  },
-  {
-    text: 'There are two rules for success. 1) Never tell everything you know.',
-    from: 'Roger H. Lincoln',
   },
   {
     text:
@@ -498,21 +402,8 @@ const quotes: Quote[] = [
     from: 'Claude McDonald',
   },
   {
-    text: 'Success is simply a matter of luck. Ask any failure.',
-    from: 'Earl Wilson',
-  },
-  {
     text: 'The road to success is always under construction.',
     from: 'Arnold Palmer',
-  },
-  {
-    text: 'Anything the mind can conceive and believe, it can achieve.',
-    from: 'Napoleon Hill',
-  },
-  {
-    text:
-      'Most great people have attained their greatest success just one step beyond their greatest failure.',
-    from: 'Napoleon Hill',
   },
   {
     text: 'Whether you think you can or you can’t, you’re right.',
@@ -521,10 +412,6 @@ const quotes: Quote[] = [
   {
     text: 'Failure defeats losers, failure inspires winners.',
     from: 'Robert T. Kiyosaki',
-  },
-  {
-    text: 'I have not failed. I’ve just found 10,000 ways that won’t work.',
-    from: 'Thomas Edison',
   },
   {
     text: 'The biggest failure you can have in life is not trying at all.',
@@ -539,11 +426,6 @@ const quotes: Quote[] = [
     text:
       'Leaders don’t force people to follow, they invite them on a journey.',
     from: 'Charles S. Lauer',
-  },
-  {
-    text:
-      'Example is not the main thing in influencing other people; it’s the only thing.',
-    from: 'Abraham Lincoln',
   },
   {
     text: 'Leadership is doing what is right when no one is watching.',
@@ -570,26 +452,8 @@ const quotes: Quote[] = [
     from: 'Bertrand Russell',
   },
   {
-    text:
-      'We are what we repeatedly do. Excellence, then, is not an act, but a habit.',
-    from: 'Aristotle',
-  },
-  {
-    text: 'Cannibals prefer those who have no spines.',
-    from: 'Stanislaw Lem',
-  },
-  {
     text: 'A ship in harbor is safe. But that’s now what ships are built for.',
     from: 'William Shedd',
-  },
-  {
-    text:
-      'If one does not know to which port one is sailing, no wind is favorable.',
-    from: 'Lucius Annaeus Seneca',
-  },
-  {
-    text: 'You miss 100% of the shots you don’t take.',
-    from: 'Wayne Gretzky',
   },
   {
     text: 'I’m not a businessman. I’m a business, man.',
@@ -602,56 +466,8 @@ const quotes: Quote[] = [
   },
   {
     text:
-      'Do not wait to strike until the iron is hot; but make it hot by striking.',
-    from: 'William B. Sprague',
-  },
-  {
-    text: 'It’s easier to ask forgiveness than it is to get permission.',
-    from: 'Grace Hopper',
-  },
-  {
-    text:
       'Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do.',
     from: 'Mark Twain',
-  },
-  {
-    text:
-      'One day your life will flash before your eyes. Make sure it is worth watching.',
-    from: 'Mooie',
-  },
-  {
-    text: 'I think it’s wrong that only one company makes the game Monopoly.',
-    from: 'Steven Wright',
-  },
-  {
-    text:
-      'Ever notice how it’s a penny for your thoughts, yet you put in your two-cents? Someone is making a penny on the deal.',
-    from: 'Steven Wright',
-  },
-  {
-    text:
-      'Catch a man a fish, and you can sell it to him. Teach a man to fish, and you ruin a wonderful business opportunity.',
-    from: 'Karl (maybe Groucho) Marx',
-  },
-  {
-    text:
-      'I used to sell furniture for a living. The trouble was, it was my own.',
-    from: 'Les Dawson',
-  },
-  {
-    text:
-      'Marking dynamos for repair $10,000.00—2 hours labor $10.00; knowing where to mark $9,990.00.',
-    from: 'Invoice from Charles Steinmetz',
-  },
-  {
-    text:
-      'By working faithfully eight hours a day you may eventually get to be boss and work twelve hours a day.',
-    from: 'Robert Frost',
-  },
-  {
-    text:
-      'My son is now an ‘entrepreneur’. That’s what you’re called when you don’t have a job.',
-    from: 'Ted Turner',
   },
   {
     text:
@@ -679,23 +495,8 @@ const quotes: Quote[] = [
   },
   {
     text:
-      'I treat business a bit like a computer game. I count money as points. I’m doing really well: making lots of money and lots of points.',
-    from: 'Michael Dunlop',
-  },
-  {
-    text:
-      'All of my friends were doing babysitting jobs. I wanted money without the job.',
-    from: 'Adam Horwitz',
-  },
-  {
-    text:
       'I don’t pay good wages because I have a lot of money; I have a lot of money because I pay good wages.',
     from: 'Robert Bosch',
-  },
-  {
-    text:
-      'Lend your friend $20. If he doesn’t pay you back then he’s not your friend. Money well spent.',
-    from: 'Ted Nicolas',
   },
   {
     text:
@@ -775,25 +576,6 @@ const quotes: Quote[] = [
     from: 'Babe Ruth',
   },
   {
-    text: 'You should always stay hungry. Stay hungry, so you can eat.',
-    from: 'Syed Balkhi',
-  },
-  {
-    text:
-      'If you’re not living life on the edge, you’re taking up too much space.',
-    from: 'Anonymous',
-  },
-  {
-    text:
-      'I wasn’t satisfied just to earn a good living. I was looking to make a statement.',
-    from: 'Donald Trump',
-  },
-  {
-    text:
-      'Opportunity is missed by most people because it is dressed in overalls and looks like work.',
-    from: 'Thomas Edison',
-  },
-  {
     text: 'You must either modify your dreams or magnify your skills.',
     from: 'Jim Rohn',
   },
@@ -819,10 +601,6 @@ const quotes: Quote[] = [
   },
   {
     text: 'A bad workman blames his tools.',
-    from: 'Chinese Proverb',
-  },
-  {
-    text: 'A fall into a ditch makes you wiser.',
     from: 'Chinese Proverb',
   },
   {
@@ -896,10 +674,6 @@ const quotes: Quote[] = [
     from: 'Michael Gerber',
   },
   {
-    text: 'If you want to be inventive',
-    from: 'you have to be willing to fail.”',
-  },
-  {
     text:
       'The challenge is not just to build a company that can endure; but to build one that is worthy of enduring.',
     from: 'Jim Collins',
@@ -914,37 +688,13 @@ const quotes: Quote[] = [
     from: 'Chris Brogan',
   },
   {
-    text: 'Nine out of ten businesses fail; so I came up with a foolproof plan',
-    from: 'create ten businesses.”',
-  },
-  {
-    text: 'I’m not a businessman',
-    from: 'I”m a business, man.”',
-  },
-  {
-    text: 'If plan ‘A’ fails',
-    from: 'remember you have 25 letters left.”',
-  },
-  {
     text:
       'We make a living by what we get. But we make a life by what we give.',
     from: 'Winston Churchhill',
   },
   {
-    text: 'Believe that you will succeed',
-    from: 'and you will.”',
-  },
-  {
     text: 'Victory comes only after many struggles and countless defeats.',
     from: 'Og Mandino',
-  },
-  {
-    text: 'As long as you’re going to be thinking anyway, think big.',
-    from: 'Donald Trump',
-  },
-  {
-    text: 'Success is how high you bounce after you hit bottom',
-    from: 'General George Patton',
   },
   {
     text:
@@ -961,7 +711,7 @@ const quotes: Quote[] = [
   },
   {
     text:
-      'If I find 10,000 ways something won’t work, I haven’t failed. I am not discouraged, because every wrong attempt discarded is a step forward.',
+      'If I find 10000 ways something won’t work, I haven’t failed. I am not discouraged, because every wrong attempt discarded is a step forward.',
     from: 'Thomas Edison',
   },
   {
@@ -973,11 +723,6 @@ const quotes: Quote[] = [
     text:
       'If we don’t allow ourselves to make mistakes, we will never invest in things that are radical.',
     from: 'Jeff Clavier',
-  },
-  {
-    text:
-      'The critical ingredient is getting off your butt and doing something.',
-    from: 'Nolan Bushnell',
   },
   {
     text: 'Nothing will work unless you do.',
@@ -1008,10 +753,6 @@ const quotes: Quote[] = [
     from: 'Tony Robbins',
   },
   {
-    text: 'If you don’t have a competitive advantage',
-    from: 'don’t compete.”',
-  },
-  {
     text:
       'You were born to win, but to be a winner, you must plan to win, prepare to win, and expect to win.',
     from: 'Zig Ziglar',
@@ -1020,10 +761,6 @@ const quotes: Quote[] = [
     text:
       'If everything seems under control, you’re just not going fast enough.',
     from: 'Mario Andretti',
-  },
-  {
-    text: 'Don’t be trapped by dogma',
-    from: 'which is living with the results of other people’s thinking.”',
   },
   {
     text: 'Do or do not. There is no try.',
@@ -1082,10 +819,6 @@ const quotes: Quote[] = [
     from: 'Tim Westergen, founder of Pandora',
   },
   {
-    text: 'Stay self-funded as long as possible.',
-    from: 'Garrett Camp, co-founder of Stumbleupon',
-  },
-  {
     text:
       'In between goals is a thing called life, that has to be lived and enjoyed.',
     from: 'Sid Caesar, Entertainer',
@@ -1142,11 +875,6 @@ const quotes: Quote[] = [
   },
   {
     text:
-      'Formal education will make you a living; self-education will make you a fortune.',
-    from: 'Jim Rohn, author and speaker',
-  },
-  {
-    text:
       'When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.',
     from: 'Henry Ford, founder of Ford Motor Company',
   },
@@ -1154,25 +882,6 @@ const quotes: Quote[] = [
     text:
       'Rarely have I seen a situation where doing less than the other guy is a good strategy.',
     from: 'Jimmy Spithill, Australian yachtsman',
-  },
-  {
-    text: 'You miss 100 percent of the shots you don’t take.',
-    from: 'Wayne Gretzky, NHL Hall of Famer',
-  },
-  {
-    text:
-      'The best time to plant a tree was 20 years ago. The second best time is now.',
-    from: 'Chinese proverb',
-  },
-  {
-    text:
-      'The secret to successful hiring is this: look for the people who want to change the world.',
-    from: 'Marc Benioff, CEO of Salesforce',
-  },
-  {
-    text:
-      'Twenty years from now, you will be more disappointed by the things that you didn’t do than by the ones you did do.',
-    from: 'Mark Twain, author',
   },
   {
     text:
@@ -1189,34 +898,8 @@ const quotes: Quote[] = [
     from: 'Tom Kelley, Ideo partner',
   },
   {
-    text: 'When you cease to dream you cease to live.',
-    from: 'Malcolm Forbes, chairman and editor in chief of Forbes Magazine',
-  },
-  {
-    text: 'Whatever the mind can conceive and believe, the mind can achieve.',
-    from: 'Dr. Napoleon Hill, author of Think and Grow Rich',
-  },
-  {
-    text:
-      'Running a start-up is like eating glass. You just start to like the taste of your own blood.',
-    from: 'Sean Parker, co-founder of Napster',
-  },
-  {
-    text: 'My number one piece of advice is: you should learn how to program.',
-    from: 'Mark Zuckerberg, founder of Facebook',
-  },
-  {
     text: 'The way to get started is to quit talking and begin doing.',
     from: 'Walt Disney, co-founder of the Walt Disney Company',
-  },
-  {
-    text:
-      'Building and hanging on to an audience is the biggest role of social media.',
-    from: 'Matthew Inman, The Oatmeal',
-  },
-  {
-    text: 'A poorly implemented feature hurts more than not having it at all.',
-    from: 'Noah Everett, founder of Twitpic',
   },
   {
     text:
@@ -1248,41 +931,12 @@ const quotes: Quote[] = [
   },
   {
     text:
-      'Lots of companies don’t succeed over time. What do they fundamentally do wrong? They usually miss the future.',
-    from: 'Larry Page, CEO of Google',
-  },
-  {
-    text:
-      'Worry about being better; bigger will take care of itself. Think one customer at a time and take care of each one the best way you can.',
-    from: 'Gary Comer, founder of Land’s End',
-  },
-  {
-    text:
-      'Every time I took these bigger risks, the opportunity for a bigger payout was always there.',
-    from: 'Casey Neistat, filmmaker',
-  },
-  {
-    text:
-      'If you can do something to get somebody excited — not everybody — but if you can be the best for somebody, then you can win.',
-    from: 'Ron Shaich, founder and CEO of Panera Bread',
-  },
-  {
-    text:
       'The only limit to our realization of tomorrow will be our doubts of today.',
     from: 'Franklin D. Roosevelt',
   },
   {
     text: 'The successful warrior is the average man, with laser-like focus.',
     from: 'Bruce Lee, actor and martial arts instructor',
-  },
-  {
-    text: 'Fall seven times and stand up eight.',
-    from: 'Japanese proverb',
-  },
-  {
-    text:
-      'The successful man is the one who finds out what is the matter with his business before his competitors do.',
-    from: 'Roy L. Smith, animator and film director',
   },
   {
     text:
@@ -1310,11 +964,6 @@ const quotes: Quote[] = [
   },
   {
     text:
-      'There is only one way to avoid criticism: Do nothing, say nothing, and be nothing.',
-    from: 'Aristotle, Greek philosopher',
-  },
-  {
-    text:
       'Build your own dreams, or someone else will hire you to build theirs.',
     from: 'Farrah Gray, investor and motivational speaker',
   },
@@ -1322,6 +971,11 @@ const quotes: Quote[] = [
     text:
       'You may be disappointed if you fail, but you are doomed if you don’t try.',
     from: 'Beverly Sills, operatic soprano',
+  },
+  {
+    text:
+      'Knowing Is Not Enough; We Must Apply. Wishing Is Not Enough; We Must Do.',
+    from: 'Johann Wolfgang Von Goethe',
   },
 ];
 
