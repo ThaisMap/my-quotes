@@ -1,13 +1,12 @@
-import { useEffect, useState } from 'react';
-import GetRandomQuote from '../api/quotes';
+import { useContext } from 'react';
+import ContentContext from '../context/Content';
 import styles from '../styles/sentence.module.css';
-import { Quote } from '../types';
 
-export default function Sentence(props) {
-  const { quote } = props;
+export default function Sentence() {
+  const { quote, getRandom } = useContext(ContentContext);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} onClick={getRandom}>
       <div className={styles.quote}>
         <cite className={styles.text}>{quote.text}</cite>
         <sub className={styles.from}>{quote.from}</sub>

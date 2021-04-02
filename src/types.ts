@@ -8,3 +8,9 @@ export interface BackgroundImage {
   link: string;
   credits: string;
 }
+
+export interface ContentContextData{
+  quote: Quote;
+  image: BackgroundImage;
+  getRandom() : void;
+}

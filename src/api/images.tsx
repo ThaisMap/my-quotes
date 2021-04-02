@@ -19,69 +19,72 @@ const backgroundImages: BackgroundImage[] = [
   {
     filename: 'images/pexels-tirachard-kumtanom-347139.jpg',
     link: 'https://www.pexels.com/pt-br/foto/painel-de-madeira-marrom-347139/',
-    credits: 'Foto de Tirachard Kumtanom no Pexels',
+    credits: 'Tirachard Kumtanom',
   },
   {
     filename: 'images/pexels-juan-pablo-serrano-arenas-1242348.jpg',
     link:
       'https://www.pexels.com/pt-br/foto/imagem-borrada-de-um-fundo-acastanhado-1242348',
-    credits: 'Foto de Juan Pablo Serrano Arenas no Pexels',
+    credits: 'Juan Pablo Serrano Arenas',
   },
   {
     filename: 'images/pexels-miguel-á-padriñán-255379.jpg',
     link: 'https://www.pexels.com/pt-br/foto/imagem-desfocada-de-luzes-255379/',
-    credits: 'Foto de Miguel Á. Padriñán no Pexels',
+    credits: 'Miguel Á. Padriñán',
   },
   {
     filename: 'images/pexels-pixabay-220118.jpg',
     link:
       'https://www.pexels.com/pt-br/foto/foto-de-luzes-em-lapso-de-tempo-220118/',
-    credits: 'Foto de Pixabay no Pexels',
+    credits: 'Pixabay',
   },
   {
     filename: 'images/pexels-johannes-plenio-1435075.jpg',
     link:
       'https://www.pexels.com/pt-br/foto/foto-de-pessoas-em-um-barco-a-remos-durante-o-por-do-sol-1435075/',
-    credits: 'Foto de Johannes Plenio no Pexels',
+    credits: 'Johannes Plenio',
   },
   {
     filename: 'images/pexels-ave-calvar-martinez-3947374.jpg',
     link:
       'https://www.pexels.com/pt-br/foto/pontos-desfocados-na-superficie-desfocada-3947374/',
-    credits: 'Foto de Ave Calvar Martinez no Pexels',
+    credits: 'Ave Calvar Martinez',
   },
   {
-    filename: 'images/pexels-sl-wong-1023953.jpg',
+    filename: 'images/pexels-maria-orlova-4916559.jpg',
     link:
-      'https://www.pexels.com/pt-br/foto/fotografia-com-foco-seletivo-de-flores-de-cerejeira-1023953/',
-    credits: 'Foto de sl wong no Pexels',
+      'https://www.pexels.com/photo/blooming-lotus-flower-with-green-leaves-4916559/',
+    credits: 'Maria Orlova',
   },
   {
     filename: 'images/pexels-julian-paolo-dayag-1673973.jpg',
     link:
       'https://www.pexels.com/pt-br/foto/foto-de-folhas-com-foco-seletivo-1673973/',
-    credits: 'Foto de Julian Paolo Dayag no Pexels',
+    credits: 'Julian Paolo Dayag',
   },
   {
     filename: 'images/pexels-maurício-mascaro-376533.jpg',
     link: 'https://www.pexels.com/pt-br/foto/fotografia-bokeh-de-rua-376533/',
-    credits: 'Foto de Maurício Mascaro no Pexels',
+    credits: 'Maurício Mascaro',
   },
   {
     filename: 'images/pexels-mike-chai-842339.jpg',
     link:
       'https://www.pexels.com/pt-br/foto/fotografia-de-lapso-de-tempo-de-pessoas-caminhando-na-faixa-de-pedestres-842339/',
-    credits: 'Foto de Mike Chai no Pexels',
+    credits: 'Mike Chai',
   },
   {
     filename: 'images/pexels-jonathan-borba-6424615.jpg',
     link: 'https://www.pexels.com/pt-br/foto/corpo-de-agua-6424615/',
-    credits: 'Foto de Jonathan Borba no Pexels',
+    credits: 'Jonathan Borba',
   },
 
-  //pexels-jonathan-borba-6424615.jpg
-  //https://www.pexels.com/pt-br/foto/corpo-de-agua-6424615/
-  //Jonathan Borba
+  /*  {
+    filename: 'images/pexels-sl-wong-1023953.jpg',
+    link:
+      'https://www.pexels.com/pt-br/foto/fotografia-com-foco-seletivo-de-flores-de-cerejeira-1023953/',
+    credits: 'sl wong',
+  }, */
 ];
 
 function GetRandomImage(): BackgroundImage {

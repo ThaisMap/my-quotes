@@ -1,15 +1,17 @@
 import styles from '../styles/background.module.css';
 import { BackgroundImage } from '../types';
+import ContentContext from '../context/Content';
+import { useContext } from 'react';
 
-export default function Background(props: any) {
-  const randomBackground: BackgroundImage = props.src; //'https://picsum.photos/1200/800/?blur';
+export default function Background() {
+  const { image } = useContext(ContentContext);
   return (
     <>
       <div
-        style={{ backgroundImage: 'url(' + randomBackground.filename + ')' }}
+        style={{ backgroundImage: 'url(' + image.filename + ')' }}
         className={styles.container}></div>
-      <a className={styles.credits} href={randomBackground.link}>
-        {randomBackground.credits}
+      <a className={styles.credits} href={image.link} target='_blank'>
+        Photo by {image.credits}
       </a>
     </>
   );

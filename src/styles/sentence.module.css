@@ -1,12 +1,12 @@
 /* sobreposicao com blur */
 .container {
-  top: 10px;
+  top: 2rem;
   left: 0;
   position: fixed;
   margin: auto;
   right: 0;
+  bottom: 2rem;
   z-index: 2;
-  height: 100vh;
 
   display: flex;
   flex-direction: column;
