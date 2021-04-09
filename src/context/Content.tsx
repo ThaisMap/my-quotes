@@ -9,11 +9,7 @@ const ContentContext = createContext<ContentContextData>(
 );
 
 export const ContentProvider: React.FC = ({ children }) => {
-  const defaultQuote: Quote = {
-    Author: 'Dalai Lama',
-    Sentence: 'The purpose of our lives is to be happy',
-  };
-  const [quote, setQuote] = useState<Quote>(defaultQuote);
+  const [quote, setQuote] = useState<Quote>(GetRandomQuote());
 
   const [image, setImage] = useState<BackgroundImage>(GetRandomImage());
 

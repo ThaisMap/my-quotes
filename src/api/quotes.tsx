@@ -2,6 +2,10 @@ import { Quote } from '../types';
 
 const quotes: Quote[] = [
   {
+    Author: 'Dalai Lama',
+    Sentence: 'The purpose of our lives is to be happy',
+  },
+  {
     Sentence: 'The only people who never fail are those who never try.',
     Author: 'Ilka Chase',
   },
@@ -31,22 +35,22 @@ const quotes: Quote[] = [
     Author: 'Albert Einstein',
   },
   {
-    text:
+    Sentence:
       'Hold fast to dreams, for if dreams die, life is a broken winged bird that cannot fly.',
     Author: 'Langston Hughes',
   },
   {
-    text:
+    Sentence:
       'The future belongs to those who believe in the beauty of their dreams.',
     Author: 'Eleanor Roosevelt',
   },
   {
-    text:
+    Sentence:
       'Go confidently in the direction of your dreams. Live the life you have imagined.',
     Author: 'Henry David Thoreau',
   },
   {
-    text:
+    Sentence:
       'You cannot depend on your eyes when your imagination is out of focus.',
     Author: 'Mark Twain',
   },
@@ -55,12 +59,12 @@ const quotes: Quote[] = [
     Author: 'Marcia Wieder',
   },
   {
-    text:
+    Sentence:
       'Do not anticipate trouble or worry about what may never happen. Keep in the sunlight.',
     Author: 'Benjamin Franklin',
   },
   {
-    text:
+    Sentence:
       'Take time to deliberate; but when the time for action arrives, stop thinking and go in.',
     Author: 'Andrew Jackson',
   },
@@ -69,7 +73,7 @@ const quotes: Quote[] = [
     Author: 'Seneca',
   },
   {
-    text:
+    Sentence:
       'The art of leadership is saying no, not yes. It is very easy to say yes.',
     Author: 'Tony Blair',
   },
@@ -78,12 +82,12 @@ const quotes: Quote[] = [
     Author: 'Napoleon Bonaparte',
   },
   {
-    text:
+    Sentence:
       'A general is just as good or just as bad as the troops under his command make him.',
     Author: 'General Douglas MacArthur',
   },
   {
-    text:
+    Sentence:
       'To do great things is difficult; but to command great things is more difficult.',
     Author: 'Friedrich Nietzsche',
   },
@@ -92,7 +96,7 @@ const quotes: Quote[] = [
     Author: 'Ralph Waldo Emerson',
   },
   {
-    text:
+    Sentence:
       'I was always looking outside myself for strength and confidence, but it comes from within. It is there all of the time.',
     Author: 'Anna Freud',
   },
@@ -101,7 +105,7 @@ const quotes: Quote[] = [
     Author: 'Helen Keller',
   },
   {
-    text:
+    Sentence:
       'Our business in life is not to get ahead of others, but to get ahead of ourselves.',
     Author: 'E. Joseph Cossman',
   },
@@ -114,7 +118,7 @@ const quotes: Quote[] = [
     Author: 'Carl Jung',
   },
   {
-    text:
+    Sentence:
       'It is not easy to find happiness in ourselves, and it is not possible to find it elsewhere.',
     Author: 'Agnes Repplier',
   },
@@ -127,12 +131,12 @@ const quotes: Quote[] = [
     Author: 'William Thackeray',
   },
   {
-    text:
+    Sentence:
       'The happiness of your life depends upon the quality of your thoughts; therefore guard accordingly.',
     Author: 'Marcus Aurelius',
   },
   {
-    text:
+    Sentence:
       'Action may not always bring happiness; but there is no happiness without action.',
     Author: 'Benjamin Disraeli',
   },
@@ -154,7 +158,7 @@ const quotes: Quote[] = [
     Author: 'Solon',
   },
   {
-    text:
+    Sentence:
       'Life can be pulled by goals just as surely as it can be pushed by drives.',
     Author: 'Viktor Frankl',
   },
@@ -167,7 +171,7 @@ const quotes: Quote[] = [
     Author: 'Richard Brinsley Sheridan',
   },
   {
-    text:
+    Sentence:
       'Careful thinking and hard work will solve nearly all your problems. Try and see for yourself.',
     Author: 'Ullery',
   },
@@ -188,7 +192,7 @@ const quotes: Quote[] = [
     Author: 'Seneca',
   },
   {
-    text:
+    Sentence:
       'In everything the ends well defined are the secret of durable success.',
     Author: 'Victor Cousins',
   },
@@ -205,12 +209,12 @@ const quotes: Quote[] = [
     Author: 'Brian Tracy',
   },
   {
-    text:
+    Sentence:
       'We are what we repeatedly do. Excellence, therefore, is not an act but a habit.',
     Author: 'Aristotle',
   },
   {
-    text:
+    Sentence:
       "Take risks and you'll get the payoffs. Learn from your mistakes until you succeed. It's that simple.",
     Author: 'Bobby Flay',
   },
@@ -223,12 +227,12 @@ const quotes: Quote[] = [
     Author: 'Wayne Gretzky',
   },
   {
-    text:
+    Sentence:
       'Nothing will ever be attempted if all possible objections must first be overcome.',
     Author: 'Samuel Johnson',
   },
   {
-    text:
+    Sentence:
       'The critical ingredient is getting off your butt and doing something. It’s as simple as that.',
     Author: 'Nolan Bushnell, entrepreneur.',
   },
@@ -242,7 +246,7 @@ const quotes: Quote[] = [
     Author: 'Peter Drucker, management consultant, educator, and author.',
   },
   {
-    text:
+    Sentence:
       'In the modern world of business, it is useless to be a creative, original thinker unless you can also sell what you create.',
     Author: 'David Ogilvy, co-founder of Ogilvy & Mather.',
   },
@@ -251,12 +255,12 @@ const quotes: Quote[] = [
     Author: 'General George Patton.',
   },
   {
-    text:
+    Sentence:
       'If you’re not embarrassed by the first version of your product, you’ve launched too late.',
     Author: 'Reid Hoffman, co-founder of LinkedIn.',
   },
   {
-    text:
+    Sentence:
       'Positive thinking will let you do everything better than negative thinking will.',
     Author: 'Zig Ziglar, author, salesman, and motivational speaker.',
   },
@@ -274,17 +278,17 @@ const quotes: Quote[] = [
     Author: 'Gary Vaynerchuk',
   },
   {
-    text:
+    Sentence:
       'Most great people have attained their greatest success just one step beyond their greatest failure',
     Author: 'Napoleon Hill',
   },
   {
-    text:
+    Sentence:
       'Opportunity is missed by most people because it is dressed in overalls and looks like work',
     Author: 'Thomas Edison',
   },
   {
-    text:
+    Sentence:
       'Have the end in mind and every day make sure your working towards it',
     Author: 'Ryan Allis',
   },
@@ -302,12 +306,12 @@ const quotes: Quote[] = [
     Author: 'Derek Bok',
   },
   {
-    text:
+    Sentence:
       'Entrepreneurship is living a few years of your life like most people wont so you can spend the rest of your life like most people can’t',
     Author: 'A student in Warren G. Tracy’s class',
   },
   {
-    text:
+    Sentence:
       'Lend your friend $20, if he doesn’t pay you back then he’s not your friend. Money well spent',
     Author: 'Ted Nicolas',
   },
@@ -316,7 +320,7 @@ const quotes: Quote[] = [
     Author: 'Bill Gates',
   },
   {
-    text:
+    Sentence:
       'To never forget that the most important thing in life is the quality of life we lead',
     Author: 'Quoted by Tony Hsieh on Retireat21',
   },
@@ -337,12 +341,12 @@ const quotes: Quote[] = [
     Author: 'Corneille',
   },
   {
-    text:
+    Sentence:
       'Example is not the main thing in influencing other people; it’s the only thing',
     Author: 'Abraham Lincoln',
   },
   {
-    text:
+    Sentence:
       'Associate yourself with people of good quality, for it is better to be alone than in bad company',
     Author: 'Booker T. Washington',
   },
@@ -351,7 +355,7 @@ const quotes: Quote[] = [
     Author: 'to be able to spend your life in your own way',
   },
   {
-    text:
+    Sentence:
       'You don’t buy a nice car and get rich you get rich and buy a nice car',
     Author: 'Unknown',
   },
@@ -360,7 +364,7 @@ const quotes: Quote[] = [
     Author: 'Japanese Proverb',
   },
   {
-    text:
+    Sentence:
       'One day your life will flash before your eyes. Make sure it is worth watching',
     Author: 'Mooie',
   },
@@ -369,7 +373,7 @@ const quotes: Quote[] = [
     Author: 'Johann Wolfgang von Goethe',
   },
   {
-    text:
+    Sentence:
       'Do not wait to strike until the iron is hot; but make it hot by striking',
     Author: 'William B. Sprague',
   },
@@ -378,12 +382,12 @@ const quotes: Quote[] = [
     Author: 'Malcolm Forbes',
   },
   {
-    text:
+    Sentence:
       'The only place where success comes before work is in the dictionary.',
     Author: 'Vidal Sassoon',
   },
   {
-    text:
+    Sentence:
       'Every single person I know who is successful at what they do is successful because they love doing it.',
     Author: 'Joe Penna',
   },
@@ -393,17 +397,17 @@ const quotes: Quote[] = [
     Author: 'Will Smith',
   },
   {
-    text:
+    Sentence:
       'Whenever an individual or a business decides that success has been attained, progress stops.',
     Author: 'Thomas J. Watson',
   },
   {
-    text:
+    Sentence:
       'To be successful, you have to have your heart in your business, and your business in your heart.',
     Author: 'Thomas J. Watson',
   },
   {
-    text:
+    Sentence:
       'If hard work is the key to success, most people would rather pick the lock.',
     Author: 'Claude McDonald',
   },
@@ -424,12 +428,12 @@ const quotes: Quote[] = [
     Author: 'Emil Motycka',
   },
   {
-    text:
+    Sentence:
       'I honestly think it is better to be a failure at something you love than to be a success at something you hate.',
     Author: 'George Burns',
   },
   {
-    text:
+    Sentence:
       'Leaders don’t force people to follow, they invite them on a journey.',
     Author: 'Charles S. Lauer',
   },
@@ -438,22 +442,22 @@ const quotes: Quote[] = [
     Author: 'George Van Valkenburg',
   },
   {
-    text:
+    Sentence:
       'Leadership is the art of getting someone else to do something you want done because he wants to do it.',
     Author: 'Dwight D. Eisenhower',
   },
   {
-    text:
+    Sentence:
       'The difference between a boss and a leader: a boss says, ‘Go!’ -a leader says, ‘Let’s go!’.',
     Author: 'E. M. Kelly',
   },
   {
-    text:
+    Sentence:
       'I am more afraid of an army of one hundred sheep led by a lion than an army of one hundred lions led by a sheep.',
     Author: 'Charles Maurice',
   },
   {
-    text:
+    Sentence:
       'The whole problem with the world is that fools and fanatics are always so certain of themselves, but wiser people so full of doubts.',
     Author: 'Bertrand Russell',
   },
@@ -467,27 +471,27 @@ const quotes: Quote[] = [
     Author: 'Jay-Z',
   },
   {
-    text:
+    Sentence:
       'The vision must be followed by the venture. It is not enough to stare up the steps – we must step up the stairs.',
     Author: 'Vance Hayner',
   },
   {
-    text:
+    Sentence:
       'Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do.',
     Author: 'Mark Twain',
   },
   {
-    text:
+    Sentence:
       'I didn’t go to college, but if I did, I would’ve taken all my tests at a restaurant, ’cause ‘The customer is always right.’',
     Author: 'Mitch Hedberg',
   },
   {
-    text:
+    Sentence:
       'Formal education will make you a living. Self education will make you a fortune.',
     Author: 'Jim Rohn',
   },
   {
-    text:
+    Sentence:
       'If you’re not learning while you’re earning, you’re cheating yourself out of the better portion of your compensation.',
     Author: 'Napoleon Hill',
   },
@@ -496,17 +500,17 @@ const quotes: Quote[] = [
     Author: 'Henry Ford',
   },
   {
-    text:
+    Sentence:
       'After a certain point, money is meaningless. It ceases to be the goal. The game is what counts.',
     Author: 'Aristotle',
   },
   {
-    text:
+    Sentence:
       'I don’t pay good wages because I have a lot of money; I have a lot of money because I pay good wages.',
     Author: 'Robert Bosch',
   },
   {
-    text:
+    Sentence:
       'Money and success don’t change people; they merely amplify what is already there.',
     Author: 'Will Smith',
   },
@@ -519,12 +523,12 @@ const quotes: Quote[] = [
     Author: 'Peter Schultz',
   },
   {
-    text:
+    Sentence:
       'In preparing for battle I have always found that plans are useless, but planning is indispensable.',
     Author: 'Dwight D. Eisenhower',
   },
   {
-    text:
+    Sentence:
       'You’ve got to stop doing all the things that people have tried, tested, and found out don’t work.',
     Author: 'Michael Dunlop',
   },
@@ -539,12 +543,12 @@ const quotes: Quote[] = [
     Author: 'Bill Gates',
   },
   {
-    text:
+    Sentence:
       'One can get anything if he is willing to help enough others get what they want.',
     Author: 'Zig Ziglar',
   },
   {
-    text:
+    Sentence:
       'An entrepreneur tends to bite off a little more than he can chew hoping he’ll quickly learn how to chew it.',
     Author: 'Roy Ash',
   },
@@ -553,7 +557,7 @@ const quotes: Quote[] = [
     Author: 'Nolan Bushnell',
   },
   {
-    text:
+    Sentence:
       'Whenever you are asked if you can do a job, tell ’em, ‘Certainly, I can!’ Then get busy and find out how to do it.',
     Author: 'Theodore Roosevelt',
   },
@@ -562,12 +566,12 @@ const quotes: Quote[] = [
     Author: 'Ben Weissenstein',
   },
   {
-    text:
+    Sentence:
       'If you start with nothing and end up with nothing, there’s nothing lost.',
     Author: 'Michael Dunlop',
   },
   {
-    text:
+    Sentence:
       'Start today, not tomorrow. If anything, you should have started yesterday.',
     Author: 'Emil Motycka',
   },
@@ -576,7 +580,7 @@ const quotes: Quote[] = [
     Author: 'Andrew Fashion',
   },
   {
-    text:
+    Sentence:
       'Every day I get up and look through the Forbes list of the richest people in America. If I’m not there, I go to work.',
     Author: 'Robert Orben',
   },
@@ -589,22 +593,22 @@ const quotes: Quote[] = [
     Author: 'Jim Rohn',
   },
   {
-    text:
+    Sentence:
       'Not a single person whose name is worth remembering lived a life of ease.',
     Author: 'Ryan P. Allis',
   },
   {
-    text:
+    Sentence:
       'The best time to plant a tree is twenty years ago. The second best time is now.',
     Author: 'Chinese Proverb',
   },
   {
-    text:
+    Sentence:
       'Vision without action is a daydream. Action without vision is a nightmare.',
     Author: 'Japanese Proverb',
   },
   {
-    text:
+    Sentence:
       'Sow a thought, reap an action; sow an action, reap a habit; sow a habit, reap a character; sow a character, reap a destiny.',
     Author: 'Chinese Proverb',
   },
@@ -617,12 +621,12 @@ const quotes: Quote[] = [
     Author: 'Chinese Proverb',
   },
   {
-    text:
+    Sentence:
       'The diamond cannot be polished without friction, nor the man perfected without trials.',
     Author: 'Chinese Proverb',
   },
   {
-    text:
+    Sentence:
       'A jade stone is useless before it is processed; a man is good-for-nothing until he is educated.',
     Author: 'Chinese Proverb',
   },
@@ -635,12 +639,12 @@ const quotes: Quote[] = [
     Author: 'Chinese Proverb',
   },
   {
-    text:
+    Sentence:
       'Building a castle is difficult. Defending and maintaining it is harder still.',
     Author: 'Asian Proverb',
   },
   {
-    text:
+    Sentence:
       'A person who says it cannot be done should not interrupt the man doing it.',
     Author: 'Chinese Proverb',
   },
@@ -649,12 +653,12 @@ const quotes: Quote[] = [
     Author: 'Chinese Proverb',
   },
   {
-    text:
+    Sentence:
       'Don’t stand by the water and long for fish; go home and weave a net.',
     Author: 'Chinese Proverb',
   },
   {
-    text:
+    Sentence:
       'Everyone should carefully observe which way his heart draws him, and then choose that way with all his strength.',
     Author: 'Hasidic Proverb',
   },
@@ -684,12 +688,12 @@ const quotes: Quote[] = [
     Author: 'Michael Gerber',
   },
   {
-    text:
+    Sentence:
       'The challenge is not just to build a company that can endure; but to build one that is worthy of enduring.',
     Author: 'Jim Collins',
   },
   {
-    text:
+    Sentence:
       'Success is a lousy teacher. It seduces smart people into thinking they can’t lose.',
     Author: 'Bill Gates',
   },
@@ -698,7 +702,7 @@ const quotes: Quote[] = [
     Author: 'Chris Brogan',
   },
   {
-    text:
+    Sentence:
       'We make a living by what we get. But we make a life by what we give.',
     Author: 'Winston Churchhill',
   },
@@ -707,7 +711,7 @@ const quotes: Quote[] = [
     Author: 'Og Mandino',
   },
   {
-    text:
+    Sentence:
       'Remembering you are going to die is the best way I know to avoid the trap of thinking you have something to lose.',
     Author: 'Steve Jobs',
   },
@@ -721,17 +725,17 @@ const quotes: Quote[] = [
     Author: 'John Shedd',
   },
   {
-    text:
+    Sentence:
       'If I find 10000 ways something won’t work, I haven’t failed. I am not discouraged, because every wrong attempt discarded is a step forward.',
     Author: 'Thomas Edison',
   },
   {
-    text:
+    Sentence:
       'Business opportunities are like buses, there’s always another one coming.',
     Author: 'Richard Branson',
   },
   {
-    text:
+    Sentence:
       'If we don’t allow ourselves to make mistakes, we will never invest in things that are radical.',
     Author: 'Jeff Clavier',
   },
@@ -740,7 +744,7 @@ const quotes: Quote[] = [
     Author: 'Maya Angelou',
   },
   {
-    text:
+    Sentence:
       'Try not to be a man of success, but rather try to become a man of value.',
     Author: 'Albert Einstein',
   },
@@ -750,27 +754,27 @@ const quotes: Quote[] = [
     Author: 'John Lennon',
   },
   {
-    text:
+    Sentence:
       'A man must be big enough to admit his mistakes, smart enough to profit from them, and strong enough to correct them.',
     Author: 'John C. Maxwell',
   },
   {
-    text:
+    Sentence:
       'In the modern world of business, it is useless to be a creative, original thinker unless you can also sell what you create.',
     Author: 'David Ogilvy',
   },
   {
-    text:
+    Sentence:
       'Success is doing what you want, where you want, when you want, with whom you want as much as you want.',
     Author: 'Tony Robbins',
   },
   {
-    text:
+    Sentence:
       'You were born to win, but to be a winner, you must plan to win, prepare to win, and expect to win.',
     Author: 'Zig Ziglar',
   },
   {
-    text:
+    Sentence:
       'If everything seems under control, you’re just not going fast enough.',
     Author: 'Mario Andretti',
   },
@@ -779,7 +783,7 @@ const quotes: Quote[] = [
     Author: 'Yoda',
   },
   {
-    text:
+    Sentence:
       'Show me a person who never made a mistake, and I will show you a person who never did anything.',
     Author: 'William Rosenberg, founder of Dunkin’ Donuts',
   },
@@ -788,17 +792,17 @@ const quotes: Quote[] = [
     Author: 'Michael Dell, CEO of Dell',
   },
   {
-    text:
+    Sentence:
       'A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty.',
     Author: 'Winston Churchill, British Prime Minister',
   },
   {
-    text:
+    Sentence:
       'The man who does not work for the love of work but only for money is likely to neither make money nor find much fun in life.',
     Author: 'Charles M. Schwab, American steel magnate',
   },
   {
-    text:
+    Sentence:
       'Be undeniably good. No marketing effort or social media buzzword can be a substitute for that.',
     Author: 'Anthony Volodkin, founder of Hype Machine',
   },
@@ -807,7 +811,7 @@ const quotes: Quote[] = [
     Author: 'Guy Kawasaki, founder of AllTop',
   },
   {
-    text:
+    Sentence:
       'You can say anything to anyone, but how you say it will determine how they will react.',
     Author: 'John Rampton, entrepreneur and investor',
   },
@@ -816,22 +820,22 @@ const quotes: Quote[] = [
     Author: 'Larry Page, co-founder of Google',
   },
   {
-    text:
+    Sentence:
       'Assume you have 90 seconds with a new user before they decide to use your app or delete it.',
     Author: 'Tamara Steffens, Acompli',
   },
   {
-    text:
+    Sentence:
       'Even if you don’t have the perfect idea to begin with, you can likely adapt.',
     Author: 'Victoria Ransom, co-founder of Wildfire Interactive',
   },
   {
-    text:
+    Sentence:
       'Make your team feel respected, empowered and genuinely excited about the company’s mission.',
     Author: 'Tim Westergen, founder of Pandora',
   },
   {
-    text:
+    Sentence:
       'In between goals is a thing called life, that has to be lived and enjoyed.',
     Author: 'Sid Caesar, Entertainer',
   },
@@ -852,12 +856,12 @@ const quotes: Quote[] = [
     Author: 'Drew Houston, founder of Dropbox',
   },
   {
-    text:
+    Sentence:
       'Don’t be cocky. Don’t be flashy. There’s always someone better than you.',
     Author: 'Tony Hsieh, Zappos.com CEO',
   },
   {
-    text:
+    Sentence:
       'Openly share and talk to people about your idea. Use their lack of interest or doubt to fuel your motivation to make it happen.',
     Author: 'Todd Garland, founder of BuySellAds',
   },
@@ -867,42 +871,42 @@ const quotes: Quote[] = [
     Author: 'Yvon Chouinard, founder of Patagonia',
   },
   {
-    text:
+    Sentence:
       'Associate yourself with people of good quality, for it is better to be alone than in bad company.',
     Author: 'Booker T. Washington, Educator and author',
   },
   {
-    text:
+    Sentence:
       'It’s fine to celebrate success but it is more important to heed the lessons of failure.',
     Author: 'Bill Gates, co-founder of Microsoft',
   },
   {
-    text:
+    Sentence:
       'It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you’ll do things differently.',
     Author: 'Warren Buffett, Investor',
   },
   {
-    text:
+    Sentence:
       'There is only one success- to be able to spend your life in your own way.',
     Author: 'Christopher Morley, journalist',
   },
   {
-    text:
+    Sentence:
       'When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.',
     Author: 'Henry Ford, founder of Ford Motor Company',
   },
   {
-    text:
+    Sentence:
       'Rarely have I seen a situation where doing less than the other guy is a good strategy.',
     Author: 'Jimmy Spithill, Australian yachtsman',
   },
   {
-    text:
+    Sentence:
       'It’s almost always harder to raise capital than you thought it would be, and it always takes longer. So plan for that.',
     Author: 'Richard Harroch, Venture Capitalist',
   },
   {
-    text:
+    Sentence:
       'I don’t have big ideas. I sometimes have small ideas, which seem to work out.',
     Author: 'Matt Mullenweg, founder of Automattic',
   },
@@ -915,22 +919,22 @@ const quotes: Quote[] = [
     Author: 'Walt Disney, co-founder of the Walt Disney Company',
   },
   {
-    text:
+    Sentence:
       'The entrepreneur always searches for change, responds to it, and exploits it as an opportunity',
     Author: 'Peter F. Drucker, educator and author',
   },
   {
-    text:
+    Sentence:
       'You don’t learn to walk by following rules. You learn by doing and falling over.',
     Author: 'Richard Branson, founder of Virgin Group',
   },
   {
-    text:
+    Sentence:
       'The fastest way to change yourself is to hang out with people who are already the way you want to be.',
     Author: 'Reid Hoffman, co-founder of Linkedin',
   },
   {
-    text:
+    Sentence:
       'Risk more than others think is safe. Dream more than others think is practical.',
     Author: 'Howard Schultz, CEO of Starbucks',
   },
@@ -943,7 +947,7 @@ const quotes: Quote[] = [
     Author: 'Bo Bennet, author and entreprenuer',
   },
   {
-    text:
+    Sentence:
       'The only limit to our realization of tomorrow will be our doubts of today.',
     Author: 'Franklin D. Roosevelt',
   },
@@ -953,17 +957,17 @@ const quotes: Quote[] = [
     Author: 'Bruce Lee, actor and martial arts instructor',
   },
   {
-    text:
+    Sentence:
       'There’s no shortage of remarkable ideas, what’s missing is the will to execute them.',
     Author: 'Seth Godin, author and speaker',
   },
   {
-    text:
+    Sentence:
       'A successful man is one who can lay a firm foundation with the bricks others have thrown at him.',
     Author: 'David Brinkley, newscaster',
   },
   {
-    text:
+    Sentence:
       'Everyone is a genius. But if you judge a fish by its ability to climb a tree, it will spend its whole life believing it is stupid.',
     Author: 'Albert Einstein, Theoretical Physicist',
   },
@@ -972,22 +976,22 @@ const quotes: Quote[] = [
     Author: 'George Eliot, journalist and novelist',
   },
   {
-    text:
+    Sentence:
       'I am not a product of my circumstances. I am a product of my decisions.',
     Author: 'Stephen Covey, author and businessman',
   },
   {
-    text:
+    Sentence:
       'Build your own dreams, or someone else will hire you to build theirs.',
     Author: 'Farrah Gray, investor and motivational speaker',
   },
   {
-    text:
+    Sentence:
       'You may be disappointed if you fail, but you are doomed if you don’t try.',
     Author: 'Beverly Sills, operatic soprano',
   },
   {
-    text:
+    Sentence:
       'Knowing Is Not Enough; We Must Apply. Wishing Is Not Enough; We Must Do.',
     Author: 'Johann Wolfgang Von Goethe',
   },
