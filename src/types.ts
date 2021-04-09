@@ -1,6 +1,7 @@
 export interface Quote {
-  text: string;
-  from: string;
+  Key?: string;
+  Sentence: string;
+  Author: string;
 }
 
 export interface BackgroundImage {
@@ -9,8 +10,8 @@ export interface BackgroundImage {
   credits: string;
 }
 
-export interface ContentContextData{
+export interface ContentContextData {
   quote: Quote;
   image: BackgroundImage;
-  getRandom() : void;
+  getRandom(): void;
 }

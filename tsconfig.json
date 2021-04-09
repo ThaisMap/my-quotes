@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/api/firebase/firebaseConfig.ts", "src/api/firebase/getQuotes.ts"  ],
   "exclude": [
     "node_modules"
   ]

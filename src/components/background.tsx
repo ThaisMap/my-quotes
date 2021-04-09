@@ -1,5 +1,4 @@
 import styles from '../styles/background.module.css';
-import { BackgroundImage } from '../types';
 import ContentContext from '../context/Content';
 import { useContext } from 'react';
 

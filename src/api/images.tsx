@@ -63,11 +63,6 @@ const backgroundImages: BackgroundImage[] = [
     credits: 'Julian Paolo Dayag',
   },
   {
-    filename: 'images/pexels-maurício-mascaro-376533.jpg',
-    link: 'https://www.pexels.com/pt-br/foto/fotografia-bokeh-de-rua-376533/',
-    credits: 'Maurício Mascaro',
-  },
-  {
     filename: 'images/pexels-mike-chai-842339.jpg',
     link:
       'https://www.pexels.com/pt-br/foto/fotografia-de-lapso-de-tempo-de-pessoas-caminhando-na-faixa-de-pedestres-842339/',
